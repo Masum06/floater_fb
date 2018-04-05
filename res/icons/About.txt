@@ -1,0 +1,21 @@
+Floater_fb 1.02
+Completed: December 27, 2015
+Powered by Java WebEngine
+(c) Being copyrigted under Bangladesh Copyright Office; All rights reserved by Md Mahmudul Hasan
+
+
+//My Picture
+
+
+Floater_fb is created by Md Mahmudul Hasan (Masum), an undergraduate student of Department of Computer Science and Engineering at Bangladesh University of Engineering and Technology.
+Masum created the Floater Web Browser with his partners Tareq Mahmood and Tanjim Rium as a term project of Object Oriented Programming. Later he decides to modify only his part of the idea and code to make a Facebook app named Floater_fb to understand the acceptance of the Floater Web Browser, which will be released in 2016.
+He also wants to make a Floater_YouTube along with the full browser.
+
+Please give us your feedback, and donate to support our initiative. Make a donation over Tk.200 and you can get a Floater_fb with a custom image of your friends, family, or anything you like.
+Thanks for using floater.
+
+Visit our website for tutorials, bug reports and feedback
+
+===============       =======    ===========
+Floater website       Contact      Donate
+===============       =======    ===========

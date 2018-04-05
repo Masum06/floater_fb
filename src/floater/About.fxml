@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="floater.AboutController">
+   <children>
+      <Label layoutX="38.0" layoutY="336.0" prefHeight="101.0" prefWidth="482.0" text="Please give us your feedback in our website, and please donate to support this initiative. With a donation over Tk. 200, you will get a floating button with a custom image of your friends, family, or anything you like, as a thank you gift from Masum. Thanks for using floater. :)" wrapText="true">
+         <font>
+            <Font name="Maiandra GD" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="112.0" prefHeight="245.0" prefWidth="320.0" text="Floater_fb is created by Md Mahmudul Hasan (Masum), an undergraduate student of Department of Computer Science and Engineering at Bangladesh University of Engineering and Technology. Masum created the Floater Web Browser with his partners Tareq Mahmood and Tanjim Rium as a term project of Object Oriented Programming. Later he decides to modify only his part of the idea and code to make a Facebook app named Floater_fb to understand the acceptance of the Floater Web Browser, which will be released in 2016. He also wants to make a Floater_YouTube along with the full browser." textAlignment="JUSTIFY" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Maiandra GD" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="225.0" fitWidth="162.0" layoutX="358.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="139.8131866455078" AnchorPane.leftAnchor="358.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="125.18681335449219">
+         <image>
+            <Image url="@masum.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="229.0" layoutY="14.0" prefHeight="22.0" prefWidth="100.0" text="Floater_fb 1.02" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="116.0" fitWidth="208.0" layoutX="16.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@flogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="229.0" layoutY="36.0" prefHeight="22.0" prefWidth="175.0" text="Completed: December 27, 2015" />
+      <Label layoutX="229.0" layoutY="58.0" prefHeight="17.0" prefWidth="162.0" text="Powered by Java WebEngine" />
+      <Label layoutX="229.0" layoutY="75.0" prefHeight="9.0" prefWidth="331.0" text="(c) Being copyrigted under Bangladesh Copyright Office;" wrapText="true" />
+      <Label layoutX="229.0" layoutY="92.0" text="All rights reserved by Md Mahmudul Hasan" />
+      <ButtonBar layoutX="56.0" layoutY="429.0" prefHeight="40.0" prefWidth="200.0">
+         <buttons>
+            <Button fx:id="website" minWidth="67.0" mnemonicParsing="false" onAction="#websiteAction" prefHeight="25.0" prefWidth="75.0" text="Website" />
+            <Button fx:id="contact" mnemonicParsing="false" onAction="#contactAction" text="Contact" />
+            <Button fx:id="donate" mnemonicParsing="false" onAction="#donateAction" text="Donate" />
+         </buttons>
+      </ButtonBar>
+      <ImageView fitHeight="32.0" fitWidth="134.0" layoutX="336.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@donate.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

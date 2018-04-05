@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="244.0" prefWidth="236.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="15.0" prefHeight="40.0" prefWidth="208.0" text="Md Mahmudul Hasan" textAlignment="CENTER" textFill="#0b1386">
+         <font>
+            <Font name="Maiandra GD" size="14.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="11.0" layoutY="54.0" prefHeight="182.0" prefWidth="215.0" text="Send Bug repot to:&#10;floater.fb@gmail.com&#10;&#10;Contact me:&#10;Email: youngladesh@gmail.com&#10;FB: mahmudul.hasanmasum.14&#10;Department of CSE, BUET&#10;Titumir Hall&#10;Dhaka-1000, Bangladesh" wrapText="true" />
+   </children>
+</AnchorPane>
